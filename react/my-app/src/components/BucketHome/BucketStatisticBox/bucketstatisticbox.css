@@ -1,0 +1,58 @@
+.col-1 p {
+    margin-bottom: 2rem;
+}
+.col-1 h1 {
+    margin-bottom: 0.5rem;
+}
+
+.bucketDescription {
+    margin-bottom: 3rem;
+    color: grey;
+}
+
+.addTaskSection {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+}
+
+.addBucketPanel{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addBucketBtn {
+    display: flex;
+    align-items: center;
+    color: #1281d6;
+    padding: 10px 18px;
+    background-color: #fff;
+    border: 1px solid #1281d6;
+    border-radius: 0.3rem;;
+}
+
+.addBucketButtonInfo {
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    padding: 1rem;
+    margin-bottom: 0.3rem;
+    border: 1px solid black;
+}
+
+.bucketHomeHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-2 {
+    display: flex;
+}
+
+.col-2 button:first-child {
+    margin-right: 1rem;
+}
+

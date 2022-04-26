@@ -1,0 +1,145 @@
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+
+    background: #fff;
+    border: 1px solid black;
+    padding: 5rem 5 5rem;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+.formButtons {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.formContainer {
+  position:relative;
+
+}
+
+  form h1 {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-top: 1rem;
+    margin-left: 3rem;
+  }
+  
+  form .form {
+    background: #0e101c;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form p {
+    color: #bf1650;
+  }
+  
+  form p::before {
+    display: inline;
+    content: "⚠ ";
+  }
+  
+  input[type="text"],
+  input[type="number"]
+   {
+    display: block;
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 4px;
+    border: 2px solid rgb(209, 209, 209);
+    padding: 10px 15px;
+    margin: 20px;
+    font-size: 14px;
+
+  }
+  
+  form label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  form button,
+  form input[type="submit"] {
+    background: #1281d6;
+    color: white;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 10px 18px;
+    border-radius: 0.2rem;
+    border: 2px solid #414BB2;
+
+    background-color: #414BB2;
+  }
+
+  
+  form input[type="submit"]:hover {
+    background: #004b84;
+  }
+  
+  form input[type="button"]:active,
+  form input[type="submit"]:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+
+    opacity: 0.8;
+  }
+  form .buttons {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 6rem;
+      width: 100%;
+      margin-bottom: 3rem;
+
+  }
+
+  form select {
+    display: block;
+    box-sizing: border-box;
+    width: 80%;
+    border-radius: 4px;
+    border: 2px solid rgb(209, 209, 209);
+    padding: 10px 15px;
+    margin: 20px;
+    font-size: 14px;
+
+  }
+  
+  input:disabled {
+    opacity: 0.4;
+  }
+  
+  input[type="button"]:hover {
+    transition: 0.3s all;
+  }
+  
+  input[type="button"],
+  input[type="submit"] {
+    -webkit-appearance: none;
+  }
+  
+ 
+  

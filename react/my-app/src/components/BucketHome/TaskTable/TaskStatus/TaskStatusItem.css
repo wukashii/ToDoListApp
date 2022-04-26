@@ -1,0 +1,17 @@
+.statusColumn {
+    /* display: flex; */
+    justify-content: center;
+    border: 1px solid black;
+    width: 20%;
+    padding: 0.5rem 1rem 2rem 1rem;
+    position: relative;
+
+}
+
+.statusColumn:not(:last-child) {
+    margin-right: 4rem;
+}
+
+.statusColumn h2 {
+    text-align: center;
+}

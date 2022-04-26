@@ -1,0 +1,20 @@
+.colorfullBall {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.statisticsItem {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.statisticsItems {
+    display: flex;
+}
